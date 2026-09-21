@@ -323,10 +323,7 @@ export default function Portfolio() {
             <span className="tag-name">{"// "}</span>02 — about
           </div>
           <p className="about-text">
-            Add a couple of sentences here about who you are, what you're
-            learning, and what kind of work you want to do next. Mention a
-            skill or two if it's relevant — <strong>keep it short</strong>,
-            the projects above do most of the talking.
+           I got into development because I like turning ideas into things people can actually use. I'm comfortable across the stack — Python, TypeScript, React — and I'm most interested in projects where I get to solve a real, specific problem rather than build something generic.
           </p>
         </section>
       </div>
