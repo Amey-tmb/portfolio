@@ -9,7 +9,24 @@ import React, { useState } from "react";
 //   liveUrl: "https://your-live-link.com",
 //   codeUrl: "https://github.com/you/your-repo",
 // },
-const PROJECTS = [];
+const PROJECTS = [
+  {
+    name: "Aufside",
+    tagline: "Squad recommendations for Fantasy Premier League",
+    description: "A tool that recommends which players to put in your Fantasy Premier League squad to help maximize points. Built to take the guesswork out of team selection each gameweek.",
+    stack: ["Python", "JavaScript", "HTML", "CSS"],
+    liveUrl: "https://aufside-lpls.vercel.app/",
+    codeUrl: "https://github.com/Amey-tmb/aufside",
+  },
+  {
+    name: "Budget Tracker",
+    tagline: "Simple category-based expense tracking",
+    description: "A budget tracker that lets you allocate money across categories and manually log spending against each one, so you can see at a glance how much you've spent versus what you budgeted.",
+    stack: ["TypeScript", "JavaScript", "HTML", "CSS"],
+    liveUrl: "https://budget-tracker-2-54tkn2n77-ameys-projects-0f5cdba9.vercel.app/",
+    codeUrl: "https://github.com/Amey-tmb/budget-tracker-2",
+  },
+];
 
 function useLineCounter() {
   let n = 0;
